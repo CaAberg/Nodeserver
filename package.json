@@ -2,11 +2,17 @@
   "name": "nodeserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http": "latest",
+    "fs": "latest",
+    "url": "latest",
+    "path": "latest"
+  }
 }
